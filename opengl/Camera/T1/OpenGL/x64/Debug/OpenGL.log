@@ -1,0 +1,6 @@
+﻿  C2_Exercise_12_VP3D_Task1.cpp
+D:\Repositories\OpenGL\Camera\T1\OpenGL_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\Camera\T1\OpenGL\C2_Exercise_12_VP3D_Task1.cpp(241,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T1\OpenGL\C2_Exercise_12_VP3D_Task1.cpp(242,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  glad.c
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\Camera\T1\x64\Debug\OpenGL.exe

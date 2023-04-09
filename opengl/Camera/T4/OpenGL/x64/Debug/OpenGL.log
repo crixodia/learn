@@ -1,0 +1,12 @@
+﻿  C2_Exercise_12_VP3D_Task4.cpp
+D:\Repositories\OpenGL\Camera\T4\OpenGL_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(230,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(354,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(355,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(359,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(360,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(361,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(362,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Camera\T4\OpenGL\C2_Exercise_12_VP3D_Task4.cpp(371,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  glad.c
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\Camera\T4\x64\Debug\OpenGL.exe

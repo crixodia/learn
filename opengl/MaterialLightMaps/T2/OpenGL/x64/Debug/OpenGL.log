@@ -1,0 +1,14 @@
+﻿  B2T3_Cristian_Bastidas.cpp
+D:\Repositories\OpenGL\B2T3\OpenGL_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(17,35): warning C4305: 'initializing': truncation from 'double' to 'const float'
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(113,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(273,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(298,31): warning C4018: '<': signed/unsigned mismatch
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(411,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(412,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(416,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(417,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(418,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(419,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T3\OpenGL\B2T3_Cristian_Bastidas.cpp(427,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\B2T3\x64\Debug\OpenGL.exe

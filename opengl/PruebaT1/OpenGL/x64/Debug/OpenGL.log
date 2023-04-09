@@ -1,0 +1,15 @@
+﻿  PruebaParcial2_Cristian_Bastidas.cpp
+D:\Repositories\OpenGL\PruebaT1\OpenGL_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(17,35): warning C4305: 'initializing': truncation from 'double' to 'const float'
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(80,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(127,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(171,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(311,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(415,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(416,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(420,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(421,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(422,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(423,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\PruebaT1\OpenGL\PruebaParcial2_Cristian_Bastidas.cpp(431,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\PruebaT1\x64\Debug\OpenGL.exe

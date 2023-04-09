@@ -1,0 +1,4 @@
+﻿  B2T1_Cristian_Bastidas.cpp
+D:\Repositories\OpenGL\B2T1\OpenGL_Stuff\include\learnopengl\shader_s.h(43,34): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\B2T1\OpenGL\B2T1_Cristian_Bastidas.cpp(176,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\B2T1\x64\Debug\OpenGL.exe

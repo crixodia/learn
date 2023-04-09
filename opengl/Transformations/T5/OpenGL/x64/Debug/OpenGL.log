@@ -1,0 +1,6 @@
+﻿  C2_Exercise_10_T2D_Task5.cpp
+D:\Repositories\OpenGL\Transformations\T5\OpenGL_Stuff\include\learnopengl\shader_s.h(43,34): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\Transformations\T5\OpenGL\C2_Exercise_10_T2D_Task5.cpp(192,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Transformations\T5\OpenGL\C2_Exercise_10_T2D_Task5.cpp(193,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Transformations\T5\OpenGL\C2_Exercise_10_T2D_Task5.cpp(213,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\Transformations\T5\x64\Debug\OpenGL.exe

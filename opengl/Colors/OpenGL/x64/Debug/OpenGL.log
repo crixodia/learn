@@ -1,0 +1,12 @@
+﻿  C3_Exercise_13_Colors_Task1.cpp
+D:\Repositories\OpenGL\Colors\OpenGL_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(168,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(269,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(270,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(274,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(275,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(276,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(277,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\Colors\OpenGL\C3_Exercise_13_Colors_Task1.cpp(286,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  glad.c
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\Colors\x64\Debug\OpenGL.exe

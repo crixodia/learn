@@ -1,0 +1,4 @@
+﻿  C2_Exercise_8_TexureIntro.cpp
+D:\Repositories\OpenGL\Textures Sample\OpenGL_Stuff\include\learnopengl\shader_s.h(43,34): warning C4101: 'e': unreferenced local variable
+  glad.c
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\Textures Sample\x64\Debug\OpenGL.exe

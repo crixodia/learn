@@ -1,0 +1,4 @@
+﻿  C2_Exercise_11_T3D_Task2.cpp
+D:\Repositories\OpenGL\3D Transformations\T2\OpenGL_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+  glad.c
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\3D Transformations\T2\x64\Debug\OpenGL.exe

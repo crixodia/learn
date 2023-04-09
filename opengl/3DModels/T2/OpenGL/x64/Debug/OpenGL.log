@@ -1,0 +1,13 @@
+﻿  C3_Exercise_16_Load3DModel_Task2.cpp
+D:\Repositories\OpenGL\3DModels\T2\OpenGL_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\3DModels\T2\OpenGL_Stuff\include\learnopengl\mesh.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(105,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(179,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(180,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(184,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(185,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(187,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(188,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\OpenGL\3DModels\T2\OpenGL\C3_Exercise_16_Load3DModel_Task2.cpp(197,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw3.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'D:\Repositories\OpenGL\3DModels\T2\x64\Debug\glfw3.pdb'; linking object as if no debug info
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\3DModels\T2\x64\Debug\OpenGL.exe

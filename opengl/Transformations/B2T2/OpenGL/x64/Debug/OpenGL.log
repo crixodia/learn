@@ -1,0 +1,22 @@
+﻿  B2T2_Cristian_Bastidas.cpp
+D:\Repositories\OpenGL\B2T2\OpenGL_Stuff\include\learnopengl\shader_s.h(43,34): warning C4101: 'e': unreferenced local variable
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(117,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(117,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(118,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(118,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(119,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(119,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(120,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(120,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(121,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(121,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(122,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(122,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(123,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(123,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(124,3): warning C4838: conversion from 'float' to 'const int' requires a narrowing conversion
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(124,3): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(192,43): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(236,16): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\OpenGL\B2T2\OpenGL\B2T2_Cristian_Bastidas.cpp(242,16): warning C4305: 'argument': truncation from 'double' to 'float'
+  OpenGL.vcxproj -> D:\Repositories\OpenGL\B2T2\x64\Debug\OpenGL.exe
