@@ -1,1 +1,1 @@
-uvicorn main:app --reload --port 5000 --host 192.168.1.10
+uvicorn main:app --reload --port 80 --host 10.8.0.2

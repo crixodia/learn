@@ -24,7 +24,7 @@
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="B2T3_Cristian_Bastidas.cpp">
+    <ClCompile Include="C3_Exercise_15_LCaster_Task2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

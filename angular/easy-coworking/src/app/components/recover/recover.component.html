@@ -1,0 +1,27 @@
+<h2 class="font-bold text-2xl">Recuperar Contraseña</h2>
+<p class="text-sm mt-4 mb-4">Inserte algo de contenido aquí</p>
+
+<form [formGroup]="recoverForm" (submit)="submit()" class="flex flex-col form-control">
+
+    <label class="label">
+        <span class="label-text">Correo electrónico</span>
+    </label>
+    <input class="w-full input input-bordered" type="email" formControlName="email"
+        [ngClass]="{'input-error': email?.invalid && email?.touched}" placeholder="usuario@email.com">
+    <label class="label">
+        <span *ngIf="email?.hasError('required') && email?.touched" class="label-text-alt text-error">El
+            correo electrónico es requerido</span>
+        <span *ngIf="email?.hasError('email') && email?.touched" class="label-text-alt text-error">El correo
+            electrónico no es válido</span>
+    </label>
+
+    <button class="btn btn-primary" [disabled]="recoverForm.invalid" type="submit">Recuperar
+        Contraseña</button>
+</form>
+
+<div class="divider"></div>
+
+<div class="text-sm flex justify-between items-center">
+    <p>¿Recuerdas tu contraseña?</p>
+    <button class="btn btn-neutral" routerLink='/login'>Iniciar Sesión</button>
+</div>

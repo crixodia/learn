@@ -1,0 +1,78 @@
+<h2 class="font-bold text-2xl">Registro</h2>
+<p class="text-sm mt-4 mb-8">Inserte algo de contenido aquí</p>
+
+<form [formGroup]="registerForm" (submit)="submit()" class="flex flex-col form-control">
+
+    <input class="input input-bordered" type="text" formControlName="nombre" placeholder="Nombre Apellido"
+        [ngClass]="{'input-error': nombre?.invalid && nombre?.touched}">
+    <label class="label">
+        <span *ngIf="nombre?.hasError('required') && nombre?.touched" class="label-text-alt text-error">El
+            nombre es requerido</span>
+    </label>
+
+    <input class="input input-bordered" type="text" formControlName="empresa" placeholder="Empresa"
+        [ngClass]="{'input-error': empresa?.invalid && empresa?.touched}">
+    <label class="label">
+        <span *ngIf="empresa?.hasError('required') && empresa?.touched" class="label-text-alt text-error">El
+            nombre de empresa es
+            requerido</span>
+    </label>
+
+    <input class="input input-bordered" type="text" formControlName="direccion" placeholder="Dirección"
+        [ngClass]="{'input-error': direccion?.invalid && direccion?.touched}">
+    <label class="label">
+        <span *ngIf="direccion?.hasError('required') && direccion?.touched" class="label-text-alt text-error">La
+            dirección es requerida</span>
+    </label>
+
+    <input class="input input-bordered" type="text" formControlName="telefono" placeholder="Teléfono"
+        [ngClass]="{'input-error': telefono?.invalid && telefono?.touched}">
+    <label class="label">
+        <span *ngIf="telefono?.hasError('required') && telefono?.touched" class="label-text-alt text-error">El teléfono
+            es requerido</span>
+        <span *ngIf="telefono?.hasError('pattern') && telefono?.touched" class="label-text-alt text-error">El teléfono
+            no es válido</span>
+    </label>
+
+    <input class="input input-bordered" type="email" formControlName="email" placeholder="Correo electrónico"
+        [ngClass]="{'input-error': email?.invalid && email?.touched}">
+    <label class="label">
+        <span *ngIf="email?.hasError('required') && email?.touched" class="label-text-alt text-error">El
+            correo electrónico es requerido</span>
+        <span *ngIf="email?.hasError('email') && email?.touched" class="label-text-alt text-error">El correo
+            electrónico no es válido</span>
+        <span *ngIf="email?.hasError('emailExists') && email?.touched" class="label-text-alt text-error">El correo
+            electrónico ya está en uso</span>
+    </label>
+
+    <input class="input input-bordered" type="text" formControlName="cargo" placeholder="Cargo">
+    <label class="label"></label>
+
+    <input class="input input-bordered" type="password" formControlName="contrasena" placeholder="Contraseña"
+        [ngClass]="{'input-error': contrasena?.invalid && contrasena?.touched}">
+    <label class="label">
+        <span *ngIf="contrasena?.hasError('required') && contrasena?.touched" class="label-text-alt text-error">La
+            contraseña es requerida</span>
+        <span *ngIf="contrasena?.hasError('pattern') && contrasena?.touched" class="label-text-alt text-error">La
+            contraseña debe contener <!--TODO--></span>
+    </label>
+
+    <input class="input input-bordered" type="password" formControlName="confirm_contrasena"
+        placeholder="Confirmación de contraseña"
+        [ngClass]="{'input-error': confirm_contrasena?.invalid && confirm_contrasena?.touched}">
+    <label class="label">
+        <span *ngIf="confirm_contrasena?.hasError('required') && confirm_contrasena?.touched"
+            class="label-text-alt text-error">La confirmación de la contraseña es requerida</span>
+        <span *ngIf="registerForm.errors?.['passwordMismatch'] && confirm_contrasena?.touched"
+            class="label-text-alt text-error">Las contraseñas no coinciden</span>
+    </label>
+
+    <button class="btn btn-primary" type="submit" [disabled]="registerForm.invalid">Registrarse</button>
+</form>
+
+<div class="divider"></div>
+
+<div class="mt-3 text-sm flex justify-between items-center">
+    <p>¿Ya tienes cuenta?</p>
+    <button class="btn btn-neutral" routerLink='/login'>Iniciar Sesión</button>
+</div>

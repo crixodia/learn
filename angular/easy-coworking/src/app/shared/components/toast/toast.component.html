@@ -1,0 +1,16 @@
+<div class="toast toast-center toast-bottom" [@toastTrigger]="toastShow ? 'open' : 'close'">
+    <div role="alert" class="alert" [class]="toastType">
+
+        <div>
+            <h3 class="font-bold">{{ toastTitle }}</h3>
+            <div class="text-xs">{{ toastMessage }}</div>
+        </div>
+        <div>
+            <button (click)="dimissToast()" class="btn btn-sm btn-ghost btn-square">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+</div>

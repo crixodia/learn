@@ -1,0 +1,73 @@
+<div class="flex-wrap">
+    <table class="table table-zebra">
+        <!-- head -->
+        <thead>
+            <tr>
+                <th class="hidden md:block">id</th>
+                <th>Nombre</th>
+                <th>Correo electrónico</th>
+                <th>Estado invitado</th>
+                <th>Rol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- row 1 -->
+            <tr *ngFor="let user of users" class="hover cursor-pointer" (click)="openModal(user)"
+                class="hover cursor-pointer" onclick="user_modal.showModal()">
+                <th class="hidden md:block">{{ user.idusuario }}</th>
+                <td>{{ user.nombre }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.estado_invitado }}</td>
+                <td><span class="badge" [ngClass]="user.rol =='administrador'? 'badge-error' : 'badge-success'">
+                        {{ user.rol }}</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<dialog id="user_modal" class="modal modal-bottom sm:modal-middle">
+    <div class="modal-box md:w-11/12 md:max-w-xl">
+        <h3 class="font-bold text-lg">Detalles de {{ selectedUser.nombre }}</h3>
+
+        <form [formGroup]="selectedUsuarioForm" method="dialog" class="flex flex-col form-control gap-4 py-4">
+
+            <input class="input input-bordered" type="text" readonly formControlName="nombre"
+                placeholder="Nombre Apellido">
+            <input class="input input-bordered" type="text" readonly formControlName="empresa" placeholder="Empresa">
+            <input class="input input-bordered" type="text" readonly formControlName="direccion"
+                placeholder="Dirección">
+
+            <input class="input input-bordered" type="text" readonly formControlName="telefono" placeholder="Teléfono">
+
+            <input class="input input-bordered" type="text" readonly formControlName="cargo" placeholder="Cargo">
+
+            <input class="input input-bordered" type="email" readonly formControlName="email"
+                placeholder="Correo electrónico">
+
+            <select class="select select-bordered w-full" formControlName="rol">
+                <option>general</option>
+                <option>administrador</option>
+            </select>
+
+            <div class="modal-action">
+                <button (click)="deleteUser(selectedUser.idusuario)" class="btn btn-error"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z" />
+                    </svg>Eliminar</button>
+
+                <button (click)="updateRol(selectedUser)" class="btn btn-warning"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path d="M12 2h-2v3h2V2Z" />
+                        <path
+                            d="M1.5 0A1.5 1.5 0 0 0 0 1.5v13A1.5 1.5 0 0 0 1.5 16h13a1.5 1.5 0 0 0 1.5-1.5V2.914a1.5 1.5 0 0 0-.44-1.06L14.147.439A1.5 1.5 0 0 0 13.086 0H1.5ZM4 6a1 1 0 0 1-1-1V1h10v4a1 1 0 0 1-1 1H4ZM3 9h10a1 1 0 0 1 1 1v5H2v-5a1 1 0 0 1 1-1Z" />
+                    </svg>Guardar</button>
+            </div>
+        </form>
+    </div>
+    <form method="dialog" class="modal-backdrop">
+        <button></button>
+    </form>
+</dialog>

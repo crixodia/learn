@@ -1,0 +1,56 @@
+<section class="min-h-full" *ngIf="!isLoading">
+    <div class="w-full mx-auto text-center">
+        <h2 class="font-bold text-2xl my-8">¿Cómo hacer tus reservas?</h2>
+        <video width="720" height="480" controls class="mx-auto rounded-2xl shadow-xl mb-8">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+
+    </div>
+
+    <!-- Si no hay regiones muestra un mensaje -->
+    <div *ngIf="regiones.length == 0" role="alert" class="alert alert-warning my-8 mx-auto max-w-md shadow-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+        </svg>
+        <span>No hay regiones disponibles. Por favor, contacte con el administrador o intente más tarde.</span>
+    </div>
+
+
+    <div class="flex-wrap flex justify-center">
+        <div *ngFor="let region of regiones"
+            class="card card-compact w-96 bg-base-300 m-4 cursor-pointer transition-transform transform hover:scale-105 shadow-xl"
+            (click)="goToReserva(region)">
+            <figure>
+                <!-- [src] -->
+                <img src="https://fastly.picsum.photos/id/1057/200/300.jpg?hmac=NbjAWVAsLFsIna7Sw8vp4X2BhTpao1KbwORuUZlAcWw"
+                    alt="{{ region.nombre }}" class="w-full h-44 object-cover">
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title justify-center">{{ region.nombre }}</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full mx-auto text-center mb-6">
+        <div class="tooltip p-2" data-tip="Cerrar Sesión">
+            <button class="btn btn-primary btn-circle shadow-lg" (click)="logout()"> <svg
+                    xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="tooltip p-2" data-tip="Administración" *ngIf="isAdmin()">
+            <button class="btn btn-neutral btn-circle shadow-lg" (click)="goToAdmin()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" class="h-6 w-6"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M10.5 1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4H1.5a.5.5 0 0 1 0-1H10V1.5a.5.5 0 0 1 .5-.5ZM12 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-6.5 2A.5.5 0 0 1 6 6v1.5h8.5a.5.5 0 0 1 0 1H6V10a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5ZM1 8a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 1 8Zm9.5 2a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V13H1.5a.5.5 0 0 1 0-1H10v-1.5a.5.5 0 0 1 .5-.5Zm1.5 2.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
